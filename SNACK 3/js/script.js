@@ -1,3 +1,10 @@
 // Crea un array vuoto.
 // Chiedi per 6 volte all’utente di inserire un numero,
 // se è dispari inseriscilo nell’array.
+
+// Chiedo 6 numeri a utente
+let userNumbers;
+for (let i = 0; i < 6; i++) {
+    userNumbers = parseInt(prompt('Ciao! Dimmi un numero'));
+    console.log(userNumbers);
+}
