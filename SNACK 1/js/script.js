@@ -5,4 +5,5 @@ let userNumbers
 for (let i = 0; i < 5; i++) {
     userNumbers = parseInt(prompt('Ciao! Dimmi un numero'));
     console.log(userNumbers);
+    
 }
