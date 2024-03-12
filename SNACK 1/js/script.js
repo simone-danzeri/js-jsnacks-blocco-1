@@ -8,7 +8,7 @@ for (let i = 0; i < 5; i++) {
     userNumbers = parseInt(prompt('Ciao! Dimmi un numero'));
     console.log(userNumbers);
     // Li metto dentro l'array solo se non sono duplicati tra loro
-    if (numbersArray.includes(userNumbers) === false) {
+    if (numbersArray.includes(userNumbers) === false) { // Con la forma NOT è molto più leggibile (!numbersArray.includes(userNumbers))
         numbersArray.push(userNumbers);
     }
 }
